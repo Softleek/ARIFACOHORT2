@@ -1,3 +1,4 @@
+import PreviousPageButton from "@/components/buttons/previousButton";
 import React from "react";
 
 const GitTutorial = () => {
@@ -8,7 +9,7 @@ const GitTutorial = () => {
       </h1>
 
       {/* Introduction */}
-      <div className="bg-gray-800 shadow-md p-6 rounded-lg text-gray-300 p-12 hover:p-14 shadow-gray-300 hover:shadow-gray-700 mb-8">
+      <div className="bg-gray-800 shadow-md p-12 rounded-lg text-gray-300 shadow-gray-300 hover:shadow-gray-700 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Introduction to Git</h2>
         <p>
           Git is a distributed version control system used to track changes in
@@ -20,7 +21,7 @@ const GitTutorial = () => {
       </div>
 
       {/* Cloning a Repository */}
-      <div className="bg-gray-800 shadow-md p-6 rounded-lg text-gray-300 p-12 hover:p-14 shadow-gray-300 hover:shadow-gray-700 mb-8">
+      <div className="bg-gray-800 shadow-md p-12 rounded-lg text-gray-300 shadow-gray-300 hover:shadow-gray-700 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Cloning a Repository</h2>
         <p>
           To clone a repository from a remote server, use the following command
@@ -36,7 +37,7 @@ const GitTutorial = () => {
       </div>
 
       {/* Pulling Changes */}
-      <div className="bg-gray-800 shadow-md p-6 rounded-lg text-gray-300 p-12 hover:p-14 shadow-gray-300 hover:shadow-gray-700 mb-8">
+      <div className="bg-gray-800 shadow-md p-12 rounded-lg text-gray-300 shadow-gray-300 hover:shadow-gray-700 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Pulling Changes</h2>
         <p>
           To fetch the latest changes from the remote repository and merge them
@@ -48,7 +49,7 @@ const GitTutorial = () => {
       </div>
 
       {/* Committing Changes */}
-      <div className="bg-gray-800 shadow-md p-6 rounded-lg text-gray-300 p-12 hover:p-14 shadow-gray-300 hover:shadow-gray-700 mb-8">
+      <div className="bg-gray-800 shadow-md p-12 rounded-lg text-gray-300 shadow-gray-300 hover:shadow-gray-700 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Committing Changes</h2>
         <p>
           To commit changes to your local repository, use the following command
@@ -61,7 +62,7 @@ const GitTutorial = () => {
       </div>
 
       {/* Pushing Changes */}
-      <div className="bg-gray-800 shadow-md p-6 rounded-lg text-gray-300 p-12 hover:p-14 shadow-gray-300 hover:shadow-gray-700 mb-8">
+      <div className="bg-gray-800 shadow-md p-12 rounded-lg text-gray-300 shadow-gray-300 hover:shadow-gray-700 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Pushing Changes</h2>
         <p>
           To push your committed changes to the remote repository, use the
@@ -73,7 +74,7 @@ const GitTutorial = () => {
       </div>
 
       {/* Additional Example */}
-      <div className="bg-gray-800 shadow-md p-6 rounded-lg text-gray-300 p-12 hover:p-14 shadow-gray-300 hover:shadow-gray-700 mb-8">
+      <div className="bg-gray-800 shadow-md p-12 rounded-lg text-gray-300 shadow-gray-300 hover:shadow-gray-700 mb-8">
         <h2 className="text-2xl font-semibold mb-4">Additional Example</h2>
         <p>Here's an example flow for creating a new branch and pushing changes:</p>
         <code className="bg-gray-600 text-white p-2 rounded-lg block">
@@ -97,6 +98,7 @@ const GitTutorial = () => {
           Explore the Official Documentation
         </a>
       </div>
+      <PreviousPageButton />
     </div>
   );
 };

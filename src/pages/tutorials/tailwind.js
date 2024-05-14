@@ -1,5 +1,6 @@
 // TailwindTutorial.js
 
+import PreviousPageButton from "@/components/buttons/previousButton";
 import React from "react";
 
 const TailwindTutorial = () => {
@@ -89,9 +90,7 @@ const TailwindTutorial = () => {
 
         {/* Responsive Example */}
         <div className="bg-gray-800 shadow-md p-6 rounded-lg text-gray-300">
-          <h2 className="text-2xl font-semibold mb-4">
-            Responsive Classes
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">Responsive Classes</h2>
           <div className="bg-blue-500 md:bg-red-500 p-4 rounded-lg mb-4">
             <p>
               Example: Blue Background on Small Screens, Red Background on
@@ -118,6 +117,7 @@ const TailwindTutorial = () => {
           Explore the Official Documentation
         </a>
       </div>
+      <PreviousPageButton />
     </div>
   );
 };
